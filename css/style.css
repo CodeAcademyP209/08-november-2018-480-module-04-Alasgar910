@@ -1,0 +1,280 @@
+/*Home 1 section*/
+/*home icon*/
+
+#home{
+	padding: 30px 0px;
+  background: url(../img/1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:700px; 
+  width: 100%;
+
+}
+
+.col-4 img{
+	margin-left: 15px;
+	margin-top: 10px;
+	padding-left: 10px;
+
+}
+.col-8{
+	padding-left: 10px;
+
+}
+/*home navbar*/
+ul {
+    list-style-type: none; 
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+     font-weight: 700;
+
+}
+i{
+	padding:5px;
+	color:white;	
+	}	
+li a:hover{
+	background: yellow;
+}
+
+
+.ortaMetin{
+	color: white;
+	padding-left: 170px;
+	padding-top:100px;
+	/*font-size: 50px;*/
+		;	
+
+
+}
+.nomre a{
+	font-family: Geneva,Tahoma,Verdana,sans-serif; 
+	font-weight: bold;
+
+}
+.font{
+	 font-style: oblique;
+	 font-size: 35px;
+}
+.money{
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	font-weight:bold; 
+	font-size: 90px;
+}
+.btns a{
+	font-size:30px;
+	font-family: Geneva,Tahoma,Verdana,sans-serif;
+	font-weight: 900;
+}
+
+/*home2 */
+
+#home2{
+	height:650px;
+}
+.welcome{
+	text-align: center;
+	padding-top: 100px;
+
+
+}
+.welcome h1{
+	font-size: 40px;
+	font-weight: bold;
+	color:rgb(67, 67, 69);
+}
+.welcome p{
+	color: rgb(128, 128, 128);
+}
+.welcomeIconlar{
+	padding:150px;
+	text-align: center;
+
+}
+.welcomeIconlar h5:{	
+	text-align:left;
+	color: rgb(67, 67, 69);
+}
+.welcomeIconlar p{
+	text-align:left;
+	color: rgb(161, 161, 161);
+}
+.welcomeIconlar ul{
+	list-style-type:circle;
+	padding-left: 50px;
+	color: rgb(161, 161, 161);
+}
+.welcomeIconlar .col-4{
+	padding-top: 100px;
+}
+/*home 3 cu section*/
+#home3{
+	height:620px;
+	background-color: rgb(242, 244, 250);
+}
+.row2{
+
+	width: 1500px;
+	margin:  auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 300px;
+	grid-gap: 1px;
+}
+.box{
+	/*border:1px solid grey;*/
+	float: left;
+    width: 66.66%;
+    padding: 50px;
+    height: 500px;
+    padding-left: 90px;
+}
+.box img{
+	width: 200%;
+	padding-left: 90px;
+}
+.bir{
+	font-family: Sans-serif;
+	font-weight: 700;
+	color: rgb(67, 67, 69);
+	font-size: 45px;
+}
+.iki{
+	font-family: Serif;
+	color:rgb(120, 120, 120);
+	font-weight: 400;
+}
+.uc{
+	padding-left: 50px;
+	font-style: italic;
+	font-size: 25px;
+	display: block;
+	font-weight: 600;
+	color: rgb(50, 50, 50);
+
+}
+.dord a{
+	background-color: rgb(130, 198, 80);
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*4cu section css*/
+#home4{
+
+}
+.container{
+	/*border:1px solid grey;*/
+	text-align: center;
+	height: 600px;
+	padding-top: 50px;
+}
+.container hr{
+	width: 70px;
+    height: 2px;
+    color:rgb(130, 198, 80);
+}
+.container .box{
+	width: 100%;
+	text-align: left;
+	margin: 20px;
+	border:2px solid lightgrey;
+	height: 320px;
+	top:10px;
+	box-shadow:6px 6px 6px white;
+
+	
+
+}
+.col-sm-4{
+	/*border:1px solid grey;*/
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+
+}
+.container img{
+	position: absolute;
+	border-radius: 50px;
+	left: 50px;
+
+	
+}
+.container .box p{
+	font-family:Calibri;
+	font-weight:700;
+	color: rgb(136, 136, 136);
+	margin-bottom:30px;
+}
+.container .box cite{
+	font-family:Calibri;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(149, 207, 106);
+}
+.basliq p{
+	font-size: 50px;
+	font-weight: 700;
+	color: rgb(67, 67, 69);
+
+} 
+.directorlar{
+	color: rgb(67, 67, 69);
+	font-size: 13px;	
+}
+.container .box p{
+
+}
+/*home 5 ci hisse*/
+
+#home5{
+
+	padding: 40px 10px;
+  background: url(../img/7.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:520px; 
+  width: 100%;
+
+}
+#home5 .col-6 h3{
+	font-family: 'Lora', serif;
+	color: white;
+	font-style: italic;
+	text-align: left;
+}
+#home5 .col-6 h1{
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-size: 57px;
+
+}
+#home5 .col-6 p{
+	color: rgb(237, 242, 237);
+	text-align: left;
+}
+#home5 .col-6 {
+	text-align: left;
+}
+#home5 .col-6 a{
+	font-weight: 700;
+}
+
+
+	
